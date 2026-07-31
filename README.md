@@ -1,4 +1,4 @@
-# 🧪 Scientist Smash (科學家大亂鬥) - Game Core
+# 🧪 Scientist Smash (科學家大亂鬥) - Game
 歡迎來到 「科學家大亂鬥 (Scientist Smash)」 的遊戲核心 Library！本專案採用 PixiJS 進行高效能 WebGL 硬體加速渲染，並使用 Rslib 打包為現代 ESM 模組，專為整合至前端框架（如 Qwik、React 等）而設計。
 
 ## 🚀 專案特點
