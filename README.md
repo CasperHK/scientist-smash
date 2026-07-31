@@ -14,12 +14,12 @@
 ## 📂 專案結構
 ```ts
 scientist-smash-core/
-├── dist/                # 打包產出目錄 (ESM & 宣告檔)
-├── src/
-│   └── index.ts         # 遊戲核心進入點 (導出 ScientistSmashGame 與型別)
-├── package.json
-├── rslib.config.ts      # Rslib 打包設定
-└── tsconfig.json        # TypeScript 設定
+├── dist/              # Build output (ESM bundles & TypeScript declaration files)
+├── src/               # Source code directory
+│   ├── frontend/      # Main entry point (exports ScientistSmashGame and types)
+│   ├── backend/       # Core game loop, scene manager, and asset loader
+│   └── game-core/     # Character, particle, and stage components
+└── start-dev.bat      # Start the development servers
 ```
 
 ## ⚙️ 安裝與開發
