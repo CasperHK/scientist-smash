@@ -6,9 +6,9 @@
  * 📦 現代化打包：使用 Rslib 提供極速的編譯體驗，並自動生成完整的 TypeScript 型別宣告檔。
  * 🔌 模組化設計：乾淨的 API 封裝，可無縫嵌入至任何現代前端網站或框架中。
 🛠️ 技術堆疊
- * 渲染引擎：PixiJS (^8.x)
- * 動畫庫：GSAP (^3.x)
- * 打包工具：Rslib
+ * 渲染引擎：[PixiJS](https://pixijs.com/) (^8.x)
+ * 動畫庫：[GSAP](https://gsap.com/) (^3.x)
+ * 打包工具：[Rslib](https://rslib.rs/)
  * 語言：TypeScript
 
 ## 📂 專案結構
