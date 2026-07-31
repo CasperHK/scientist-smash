@@ -1,6 +1,7 @@
-🧪 Scientist Smash (科學家大亂鬥) - Game Core
+# 🧪 Scientist Smash (科學家大亂鬥) - Game Core
 歡迎來到 「科學家大亂鬥 (Scientist Smash)」 的遊戲核心 Library！本專案採用 PixiJS 進行高效能 WebGL 硬體加速渲染，並使用 Rslib 打包為現代 ESM 模組，專為整合至前端框架（如 Qwik、React 等）而設計。
-🚀 專案特點
+
+## 🚀 專案特點
  * ⚡高效能渲染：基於 PixiJS，支援流暢的 2D 角色動畫與特效。
  * 📦 現代化打包：使用 Rslib 提供極速的編譯體驗，並自動生成完整的 TypeScript 型別宣告檔。
  * 🔌 模組化設計：乾淨的 API 封裝，可無縫嵌入至任何現代前端網站或框架中。
@@ -9,7 +10,9 @@
  * 動畫庫：GSAP (^3.x)
  * 打包工具：Rslib
  * 語言：TypeScript
-📂 專案結構
+
+## 📂 專案結構
+
 scientist-smash-core/
 ├── dist/                # 打包產出目錄 (ESM & 宣告檔)
 ├── src/
@@ -28,7 +31,7 @@ pnpm dev
 3. 正式打包
 pnpm build
 
-📖 使用方式
+## 📖 使用方式
 在外部專案（例如 Qwik 網站）中安裝並引入此 Library：
 import { ScientistSmashGame } from 'scientist-smash-core';
 import type { PlayerSession } from 'scientist-smash-core';
