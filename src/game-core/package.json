@@ -1,0 +1,23 @@
+{
+  "name": "game-core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "dev": "rslib build --watch",
+    "build": "rslib build"
+  },
+  "devDependencies": {
+    "@rslib/core": "^latest",
+    "typescript": "^5.0.0"
+  }
+}
