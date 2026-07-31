@@ -12,7 +12,7 @@
  * 語言：TypeScript
 
 ## 📂 專案結構
-```
+```ts
 scientist-smash-core/
 ├── dist/                # 打包產出目錄 (ESM & 宣告檔)
 ├── src/
@@ -24,23 +24,23 @@ scientist-smash-core/
 
 ## ⚙️ 安裝與開發
 1. 安裝相依套件
-```
+```bash
 pnpm install
 ```
 
 3. 開發模式 (監控程式碼變更並自動重新打包)
-```
+```bash
 pnpm dev
 ```
 
 4. 正式打包
-```
+```bash
 pnpm build
 ```
 
 ## 📖 使用方式
 在外部專案（例如 Qwik 網站）中安裝並引入此 Library：
-```
+```bash
 import { ScientistSmashGame } from 'scientist-smash-core';
 import type { PlayerSession } from 'scientist-smash-core';
 
