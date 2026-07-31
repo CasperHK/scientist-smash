@@ -12,7 +12,7 @@
  * 語言：TypeScript
 
 ## 📂 專案結構
-
+```
 scientist-smash-core/
 ├── dist/                # 打包產出目錄 (ESM & 宣告檔)
 ├── src/
@@ -20,19 +20,27 @@ scientist-smash-core/
 ├── package.json
 ├── rslib.config.ts      # Rslib 打包設定
 └── tsconfig.json        # TypeScript 設定
+```
 
-⚙️ 安裝與開發
+## ⚙️ 安裝與開發
 1. 安裝相依套件
+```
 pnpm install
+```
 
-2. 開發模式 (監控程式碼變更並自動重新打包)
+3. 開發模式 (監控程式碼變更並自動重新打包)
+```
 pnpm dev
+```
 
-3. 正式打包
+4. 正式打包
+```
 pnpm build
+```
 
 ## 📖 使用方式
 在外部專案（例如 Qwik 網站）中安裝並引入此 Library：
+```
 import { ScientistSmashGame } from 'scientist-smash-core';
 import type { PlayerSession } from 'scientist-smash-core';
 
@@ -50,6 +58,7 @@ const game = new ScientistSmashGame(container, playerSession);
 
 // 當組件銷毀時清理資源
 // game.destroy();
+```
 
-📜 授權條款
+## 📜 授權條款
 本專案採用 MIT License。
